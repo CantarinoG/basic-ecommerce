@@ -98,6 +98,12 @@
     - Completed: N/A
     - Notes: N/A
 
+- [ ] **#19 Add Indexes**
+    - Description: Add indexes to db in often filtered fields to improve performance.
+    - Added: 26/01
+    - Completed: N/A
+    - Notes: N/A
+
 ## 🏗️ In Progress (3 WIP max)
 
 - [ ] **#01 Set Up BE Environment**
