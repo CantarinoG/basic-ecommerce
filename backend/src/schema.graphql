@@ -1,0 +1,62 @@
+type Query {
+  # Get all products with basic info
+  products: [Product!]!
+  
+  # Get products by category ID
+  productsByCategory(categoryId: ID!): [Product!]!
+  
+  # Get all categories
+  categories: [Category!]!
+  
+  # Get single product by ID with full details
+  product(id: ID!): Product
+}
+
+type Product {
+  id: ID!
+  name: String!
+  inStock: Boolean!
+  description: String
+  brand: String!
+  category: Category
+  # Will return the first image by display_order
+  gallery: [Image!]!
+  prices: [Price!]!
+  attributes: [AttributeSet!]!
+}
+
+type Category {
+  id: ID!
+  name: String!
+  products: [Product!]!
+}
+
+type Image {
+  id: ID!
+  url: String!
+  displayOrder: Int!
+}
+
+type Price {
+  amount: Float!
+  currency: Currency!
+}
+
+type Currency {
+  id: ID!
+  label: String!
+  symbol: String!
+}
+
+type AttributeSet {
+  id: ID!
+  name: String!
+  type: String!
+  items: [AttributeValue!]!
+}
+
+type AttributeValue {
+  id: ID!
+  displayValue: String!
+  value: String!
+}
