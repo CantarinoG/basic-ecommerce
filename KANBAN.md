@@ -88,12 +88,6 @@
 
 ## 🏗️ In Progress (3 WIP max)
 
-- [ ] **#04 Add project carcass**
-    - Description: BE must implement this carcass as it's base: https://github.com/Mr0Bread/fullstack-test-starter.
-    - Added: 26/01
-    - Completed: N/A
-    - Notes: N/A
-
 - [ ] **#05 Add schema**
     - Description: Develop `schema.graphql`. Schema for categories/products and their fields. Attributes part of Product Schema should be implemented as a type of their own and resolved through their own sets of classes, not directly on the Product Schema/Resolver. 
     - Added: 26/01
@@ -118,6 +112,12 @@
 
 - [x] **#01 Set Up BE Environment**
     - Description: Must use PHP7.4+ or PHP8.1+ and MySQL ^5.6.
+    - Added: 26/01
+    - Completed: 28/01
+    - Notes: N/A
+
+- [x] **#04 Add project carcass**
+    - Description: BE must implement this carcass as it's base: https://github.com/Mr0Bread/fullstack-test-starter.
     - Added: 26/01
     - Completed: 28/01
     - Notes: N/A
