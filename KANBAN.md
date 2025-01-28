@@ -112,12 +112,12 @@
     - Completed: N/A
     - Notes: N/A
 
-- [ ] **#03 Populate DB**
-    - Description: DB must be populated with data from data.json.
-    - Added: 26/01
-    - Completed: N/A
-    - Notes: N/A
-
 ## 🔍 Review
 
 ## ✅ Done
+
+- [x] **#03 Populate DB**
+    - Description: DB must be populated with data from data.json.
+    - Added: 26/01
+    - Completed: 26/01
+    - Notes: N/A
